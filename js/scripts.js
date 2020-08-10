@@ -1,8 +1,8 @@
-function add(number1, number2) {
-  return number1 + number2;
+function celcius(temp) {
+  return (temp * (9/5))+32;;
 }
 
-const number1 = parseInt(prompt("Enter a number: "));
-const number2 = parseInt(prompt("Enter another number: "));
+const temp = parseInt(prompt("Enter a temperature in celcius: "));
+const result = celcius(temp);
 
-alert(add(number1, number2));
+alert(result + " fahrenheit");
